@@ -5,7 +5,6 @@ theme = "mainroad"
 [Author]
   name = "Revolutionary Student Union"
   bio = "RSU"
-  avatar = "img/avatar.png"
 
 [Params]
   opengraph = true
@@ -31,3 +30,5 @@ theme = "mainroad"
   tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
 [Params.widgets.social]
   email = "blahblahblah@proton.me"
+[Params.style.vars]
+  highlightColor = "#f4b446"
