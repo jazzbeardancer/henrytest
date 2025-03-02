@@ -1,0 +1,4 @@
+baseURL = 'http://revolutionarystudentunion.org/'
+languageCode = 'en-us'
+title = 'Revolutionary Student Union'
+theme = "mainroad"
