@@ -17,6 +17,7 @@ theme = "mainroad"
 
 [Params.logo]
   subtitle = "We have a world to win" # Logo subtitle
+  image = "img/rsu.png"
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page
