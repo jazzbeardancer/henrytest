@@ -32,7 +32,7 @@ baseURL = 'https://revolutionaryyouthorganization.org/'
     title = 'Organización Juvenil Revolucionaria'
     weight = 2
     [languages.es.params]
-      subtitle = 'Tenemos un mundo por ganar'
+      subtitle = 'Tenemos un mundo que ganar'
     post_meta = ["date", "categories"] # Order of post meta information
     [languages.es.menus]
     [[languages.es.menus.main]]
