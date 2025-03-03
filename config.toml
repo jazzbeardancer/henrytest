@@ -18,7 +18,7 @@ baseURL = 'https://revolutionaryyouthorganization.org/'
         [[languages.en.menus.main]]
             name = 'Español'
             pageRef = 'es'
-            weight = 10
+            weight = 20
     [[languages.en.menus.main]]
     name = 'Articles'
     pageRef = '/'
