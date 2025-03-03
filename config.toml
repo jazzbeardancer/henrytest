@@ -18,7 +18,7 @@ baseURL = 'https://revolutionaryyouthorganization.org/'
         [[languages.en.menus.main]]
             name = 'Español'
             pageRef = '/henrytest/es'
-            weight = 50
+            weight = 1000
     [[languages.en.menus.main]]
     name = 'Articles'
     pageRef = '/'
@@ -38,7 +38,7 @@ baseURL = 'https://revolutionaryyouthorganization.org/'
     [[languages.es.menus.main]]
     name = 'English'
     pageRef = '/henrytest'
-    weight = 20
+    weight = 1000
 [Author]
   name = "Revolutionary Youth Organization"
   bio = "RYO"
