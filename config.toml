@@ -59,7 +59,7 @@ baseURL = 'https://revolutionaryyouthorganization.org/'
   list = "right"   # Configure layout for list pages
   single = "right" # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["ddg-search", "recent", "categories", "social"]
+  widgets = ["ddg-search", "recent", "categories"]
 
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
