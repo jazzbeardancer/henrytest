@@ -1,7 +1,5 @@
 ---
 title: "About"
-date: 2025-03-02T11:10:25-05:00
-draft: false 
 menu: main 
 pager: false
 ---
