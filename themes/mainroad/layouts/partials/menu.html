@@ -8,7 +8,7 @@
 		{{- range .Site.Menus.main }}
 		{{- if .Name }}
 		<li class="menu__item{{ if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} menu__item--active{{ end }}">
-			<a class="menu__link" href="{{ .URL }}">
+			<a class="menu__link" href="{{ or .URL .PageRef }}">
 				{{ .Pre }}
 				<span class="menu__text">{{ .Name }}</span>
 				{{ .Post }}

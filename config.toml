@@ -1,7 +1,9 @@
 defaultContentLanguage = 'en'
 theme = "mainroad"
+baseURL = 'https://revolutionaryyouthorganization.org/'
 [languages]
 [languages.en]
+    contentDir = 'content/en'
     disabled = false
     languageCode = 'en-US'
     languageDirection = 'ltr'
@@ -11,8 +13,12 @@ theme = "mainroad"
     [languages.en.params]
       subtitle = 'We have a world to win'
     post_meta = ["date", "categories"] # Order of post meta information
-    baseURL = 'https://revolutionaryyouthorganization.org/'
     theme = "mainroad"
+    [languages.en.menus]
+        [[languages.en.menus.main]]
+            name = 'Español'
+            pageRef = '/es'
+            weight = 10
 [languages.es]
     contentDir = 'content/es'
     disabled = false
@@ -24,7 +30,11 @@ theme = "mainroad"
     [languages.es.params]
       subtitle = 'Tenemos un mundo por ganar'
     post_meta = ["date", "categories"] # Order of post meta information
-    baseURL = 'https://revolutionaryyouthorganization.org/'
+    [languages.es.menus]
+    [[languages.es.menus.main]]
+    name = 'English'
+    pageRef = '/en'
+    weight = 20
 [Author]
   name = "Revolutionary Youth Organization"
   bio = "RYO"
@@ -45,7 +55,7 @@ theme = "mainroad"
   list = "right"   # Configure layout for list pages
   single = "right" # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["search", "recent", "categories", "social"]
+  widgets = ["ddg-search", "recent", "categories", "social"]
 
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
