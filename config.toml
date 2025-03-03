@@ -1,10 +1,33 @@
-baseURL = 'https://revolutionarystudentunion.org/'
-languageCode = 'en-us'
-title = 'Revolutionary Student Union'
+defaultContentLanguage = 'en'
 theme = "mainroad"
+[languages]
+[languages.en]
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'Revolutionary Youth Organization'
+    weight = 1
+    [languages.en.params]
+      subtitle = 'We have a world to win'
+    post_meta = ["date", "categories"] # Order of post meta information
+    baseURL = 'https://revolutionaryyouthorganization.org/'
+    theme = "mainroad"
+[languages.es]
+    contentDir = 'content/es'
+    disabled = false
+    languageCode = 'es-US'
+    languageDirection = 'ltr'
+    languageName = 'Español'
+    title = 'Organización Juvenil Revolucionaria'
+    weight = 2
+    [languages.es.params]
+      subtitle = 'Tenemos un mundo por ganar'
+    post_meta = ["date", "categories"] # Order of post meta information
+    baseURL = 'https://revolutionaryyouthorganization.org/'
 [Author]
-  name = "Revolutionary Student Union"
-  bio = "RSU"
+  name = "Revolutionary Youth Organization"
+  bio = "RYO"
 
 [Params]
   opengraph = true
@@ -15,7 +38,6 @@ theme = "mainroad"
   post_meta = ["date", "categories"] # Order of post meta information
 
 [Params.logo]
-  subtitle = "We have a world to win" # Logo subtitle
   image = "img/rsu.png"
 
 [Params.sidebar]
